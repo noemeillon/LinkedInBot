@@ -7,10 +7,6 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementClickInterceptedException
 
 """ Create a LinkedIn Bot that scrapes the site with in info entered in parameters of the constructor"""
-
-# Salary: .find_element_by_xpath(".//*[contains text(), 'salary']")
-
-
 class LinkedInBot:
 
     """Constructor of the class, job_type is the type of job, job_location is where the job is located
@@ -81,7 +77,7 @@ class LinkedInBot:
     def __display_jobs_list(self, number_of_jobs):
         jobs = self.__driver.find_element_by_class_name("jobs-search__results-list").find_elements_by_xpath(".//li")
 
-        # Click one time more than enough!!!
+        # Handle pagination
         while number_of_jobs > len(jobs):
             time.sleep(1)
             if len(jobs) >= number_of_jobs:
@@ -104,5 +100,5 @@ class LinkedInBot:
 
 
 if __name__ == '__main__':
-
+    # Params: Job title, Location and number of jobs to scrap
     bot = LinkedInBot("Software Engineer", "London", 26)
