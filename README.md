@@ -10,6 +10,7 @@ Make sure you have Python 3 installed.
 
 To run the program:
 - Download the project
-- Replace the parameters in the runnable part of the project in linkedinBot > linkedinBot.py with the desired parameters.
+- Replace the parameters in the runnable part of the project in linkedinBot > linkedinBot.py with the desired parameters. ![Screenshot from 2021-08-22 22-21-49](https://user-images.githubusercontent.com/39555683/130370414-ad5b9ec6-ccf6-48cb-873e-e0b50e8a7da6.png) In this case, the bot looks for 25 Software Engineers opportunities based in London.
+
 - Open a terminal within LinkedInBot > linkedinBot
-- Run the command  or  (depending on your default system python version).
+- Run the command ![Screenshot from 2021-08-22 22-20-05](https://user-images.githubusercontent.com/39555683/130370450-2089ff0d-8444-4fa6-befe-29d4cf650b5d.png) or ![Screenshot from 2021-08-22 22-20-32](https://user-images.githubusercontent.com/39555683/130370457-60106a08-8800-4303-802e-5aede700db65.png) (depending on your default system python version).
