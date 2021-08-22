@@ -17,4 +17,4 @@ To run the program:
 
 ### Disclaimer
 
-I built this project in December 2020. Therefore, you might face some issues with dependecies or, if the website has been under some refurbishment, Selenium might struggle to identify the different web elements using their old hardcoded xpath or class name.
+I built this project in December 2020. Therefore, you might face some issues with dependencies or, if the website has been under some refurbishment, Selenium might struggle to identify the different web elements using their old hardcoded xpath or class name.
