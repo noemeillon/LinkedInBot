@@ -14,3 +14,7 @@ To run the program:
 
 - Open a terminal within LinkedInBot > linkedinBot
 - Run the command ![Screenshot from 2021-08-22 22-20-05](https://user-images.githubusercontent.com/39555683/130370450-2089ff0d-8444-4fa6-befe-29d4cf650b5d.png) or ![Screenshot from 2021-08-22 22-20-32](https://user-images.githubusercontent.com/39555683/130370457-60106a08-8800-4303-802e-5aede700db65.png) (depending on your default system python version).
+
+### Disclaimer
+
+I built this project in December 2020. Therefore, you might face some issues with dependecies or, if the website has been under some refurbishment, Selenium might struggle to identify the different web elements using their old hardcoded xpath or class name.
